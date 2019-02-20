@@ -1,2 +1,6 @@
 @tailwind preflight;
 @tailwind utilities;
+
+body {
+  background: #020d18;
+}

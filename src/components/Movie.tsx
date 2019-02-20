@@ -15,15 +15,20 @@ interface Props {
 }
 
 const Movie = (props: Props) => (
-  <div className="max-w-sm w-48 m-1 border-black rounded overflow-hidden shadow-lg">
+  <div className="w-48 mx-auto p-2 overflow-hidden">
     <img
       className="w-48"
-      src={`https://image.tmdb.org/t/p/w300${props.backdrop_path}`}
+      src={`https://image.tmdb.org/t/p/w300${props.poster_path}`}
+      style={{ borderRadius: "10px" }}
       alt="Sunset in the mountains"
     />
-    <div className="px-6 py-4">
-      <div className="font-bold mb-2 text-xs text-left truncate">
+    <div className="px-2 py-4">
+      <div className="font-bold mb-2 text-sm text-left truncate tracking-wide text-white">
         {props.original_title}
+        <div className="mt-4">
+          <span className="text-xl">{props.vote_average}</span>
+          <span className="text-grey-darker"> /10</span>
+        </div>
       </div>
     </div>
   </div>

@@ -33,13 +33,7 @@ const Grid = (): JSX.Element => {
 
   return (
     <Fragment>
-      <h1 className="text-orange">Grid</h1>
-      <div
-        style={{
-          display: "flex",
-          flexWrap: "wrap"
-        }}
-      >
+      <div className="flex flex-wrap max-w-xl mx-auto ">
         {movies.map((movie: Movies) => (
           <Movie key={movie.id} {...movie} />
         ))}

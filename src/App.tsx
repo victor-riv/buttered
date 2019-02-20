@@ -9,7 +9,9 @@ const App = (): JSX.Element => (
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
     </header>
-    <Grid />
+    <div className="w-5/6 mx-auto">
+      <Grid />
+    </div>
   </div>
 );
 
