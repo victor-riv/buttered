@@ -2,20 +2,13 @@ import React from "react";
 
 interface Props {
   poster_path: string;
-  backdrop_path: string;
-  genre_ids: number[];
   id: number;
   original_title: string;
-  populatiry: number;
-  release_date: string;
-  title: string;
-  video: boolean;
   vote_average: number;
-  vote_count: number;
 }
 
 const Movie = (props: Props) => (
-  <div className="w-48 mx-auto p-2 overflow-hidden">
+  <div className="w-48 mx-auto p-5 overflow-hidden">
     <img
       className="w-48"
       src={`https://image.tmdb.org/t/p/w300${props.poster_path}`}

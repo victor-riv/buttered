@@ -1,5 +1,6 @@
 import * as React from "react";
 import Grid from "./components/Grid";
+import SideSearch from "./components/SideSearch";
 import logo from "./logo.svg";
 import "./App.css";
 import "./";
@@ -9,8 +10,13 @@ const App = (): JSX.Element => (
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
     </header>
-    <div className="w-5/6 mx-auto">
-      <Grid />
+    <div className="md:w-full lg:w-3/5 mx-auto flex">
+      <div className="w-2/3">
+        <Grid />
+      </div>
+      <div className="">
+        <SideSearch />
+      </div>
     </div>
   </div>
 );
