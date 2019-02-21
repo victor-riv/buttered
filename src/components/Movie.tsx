@@ -8,7 +8,7 @@ interface Props {
 }
 
 const Movie = (props: Props) => (
-  <div className="w-48 mx-auto p-5 overflow-hidden">
+  <div className="w-48 mx-auto p-2 overflow-hidden">
     <img
       className="w-48"
       src={`https://image.tmdb.org/t/p/w300${props.poster_path}`}

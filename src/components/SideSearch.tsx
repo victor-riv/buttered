@@ -1,8 +1,14 @@
 import React from "react";
 
 const SideSearch = (): JSX.Element => (
-  <div className="mx-auto w-5/6">
-    <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+  <div className="xl:w-1/3 px-10">
+    <h3
+      className="text-grey mt-6 pb-3"
+      style={{ borderBottom: "1px solid white" }}
+    >
+      Search Movie
+    </h3>
+    <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 mt-5">
       <div className="mb-4">
         <label
           className="block text-grey-darker text-sm font-bold mb-2"
