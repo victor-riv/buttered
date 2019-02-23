@@ -10,7 +10,7 @@ const App = (): JSX.Element => (
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
     </header>
-    <div className="w-4/5 mx-auto flex bg-yellow lg:bg-blue xl:bg-orange">
+    <div className="content bg-twitter">
       <Grid />
       <SideSearch />
     </div>

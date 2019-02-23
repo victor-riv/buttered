@@ -1,56 +1,36 @@
 import React from "react";
 
 const SideSearch = (): JSX.Element => (
-  <div className="xl:w-1/3 px-10">
+  <div className="sidebar">
     <h3
       className="text-grey mt-6 pb-3"
-      style={{ borderBottom: "1px solid white" }}
+      style={{ borderBottom: "1px solid #405266" }}
     >
       Search Movie
     </h3>
-    <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 mt-5">
+    <form className="search-movie-form shadow-md rounded px-8 pt-6 pb-8 mb-4 mt-5">
       <div className="mb-4">
         <label
           className="block text-grey-darker text-sm font-bold mb-2"
-          htmlFor="username"
+          htmlFor="title"
         >
-          Username
+          Movie title
         </label>
         <input
-          className="shadow appearance-none border rounded w-full py-2 px-3 text-grey-darker leading-tight focus:outline-none focus:shadow-outline"
+          className="movie-search-input shadow border rounded w-full py-2 px-3 text-grey-darker leading-tight focus:outline-none focus:shadow-outline"
           id="username"
           type="text"
-          placeholder="Username"
+          placeholder="Movie title.."
         />
       </div>
-      <div className="mb-6">
-        <label
-          className="block text-grey-darker text-sm font-bold mb-2"
-          htmlFor="password"
-        >
-          Password
-        </label>
-        <input
-          className="shadow appearance-none border border-red rounded w-full py-2 px-3 text-grey-darker mb-3 leading-tight focus:outline-none focus:shadow-outline"
-          id="password"
-          type="password"
-          placeholder="******************"
-        />
-        <p className="text-red text-xs italic">Please choose a password.</p>
-      </div>
-      <div className="flex items-center justify-between">
+
+      <div className="flex justidy-center">
         <button
-          className="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+          className="movie-search-button w-full hover:bg-blue-dark text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
           type="button"
         >
-          Sign In
+          Search
         </button>
-        <a
-          className="inline-block align-baseline font-bold text-sm text-blue hover:text-blue-darker"
-          href="#"
-        >
-          Forgot Password?
-        </a>
       </div>
     </form>
   </div>

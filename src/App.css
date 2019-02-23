@@ -1,5 +1,5 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
 .App-logo {
@@ -19,8 +19,65 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.content {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  grid-gap: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  background: #10171e;
+}
+
+.movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 40px;
+}
+
+.movies .grid-filter {
+  grid-column: 1 / -1;
+  margin-top: 20px;
+  border-top: 1px solid #405266;
+  border-bottom: 1px solid #405266;
+  padding: 8px;
+  color: #abb7c4;
+}
+
+.movie {
+  display: grid;
+  align-items: center;
+  color: gray;
+}
+
+.movie .movie-title {
+  margin-bottom: 10px;
+}
+
+.movie-details {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.movie .poster {
+  width: 100%;
+  min-height: 200px;
+}
+
+.search-movie-form {
+  background: #0b1a2a;
+  border: 3px solid #0f2133;
+}
+
+.movie-search-input {
+  background: #233a50;
+  border: none;
+  color: #abb7c4;
+}
+
+.movie-search-button {
+  background: #dd003f;
 }
 
 @keyframes App-logo-spin {
