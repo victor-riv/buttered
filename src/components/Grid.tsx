@@ -22,7 +22,10 @@ const Grid = (): JSX.Element => {
 
   return (
     <Fragment>
-      <div className="flex flex-wrap min-w-md max-w-xl mx-auto bg-red">
+      <div className="movies">
+        <div className="grid-filter">
+          <p>Found 1,808 movies in total</p>
+        </div>
         {movies.map((movie: Movies) => (
           <Movie key={movie.id} {...movie} />
         ))}
