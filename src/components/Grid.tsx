@@ -24,7 +24,7 @@ const Grid = (): JSX.Element => {
     <Fragment>
       <div className="movies">
         <div className="grid-filter">
-          <p>Found 1,808 movies in total</p>
+          <p>Found {movies.length} movies in total</p>
         </div>
         {movies.map((movie: Movies) => (
           <Movie key={movie.id} {...movie} />

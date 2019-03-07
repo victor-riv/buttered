@@ -727,6 +727,10 @@ table {
   background-color: #eff8ff;
 }
 
+.bg-twitter-bg {
+  background-color: #10171e;
+}
+
 .bg-indigo-darkest {
   background-color: #191e38;
 }
@@ -1019,6 +1023,10 @@ table {
   background-color: #eff8ff;
 }
 
+.hover\:bg-twitter-bg:hover {
+  background-color: #10171e;
+}
+
 .hover\:bg-indigo-darkest:hover {
   background-color: #191e38;
 }
@@ -1309,6 +1317,10 @@ table {
 
 .focus\:bg-blue-lightest:focus {
   background-color: #eff8ff;
+}
+
+.focus\:bg-twitter-bg:focus {
+  background-color: #10171e;
 }
 
 .focus\:bg-indigo-darkest:focus {
@@ -1675,6 +1687,10 @@ table {
   border-color: #eff8ff;
 }
 
+.border-twitter-bg {
+  border-color: #10171e;
+}
+
 .border-indigo-darkest {
   border-color: #191e38;
 }
@@ -1967,6 +1983,10 @@ table {
   border-color: #eff8ff;
 }
 
+.hover\:border-twitter-bg:hover {
+  border-color: #10171e;
+}
+
 .hover\:border-indigo-darkest:hover {
   border-color: #191e38;
 }
@@ -2257,6 +2277,10 @@ table {
 
 .focus\:border-blue-lightest:focus {
   border-color: #eff8ff;
+}
+
+.focus\:border-twitter-bg:focus {
+  border-color: #10171e;
 }
 
 .focus\:border-indigo-darkest:focus {
@@ -5076,6 +5100,10 @@ table {
   color: #eff8ff;
 }
 
+.text-twitter-bg {
+  color: #10171e;
+}
+
 .text-indigo-darkest {
   color: #191e38;
 }
@@ -5368,6 +5396,10 @@ table {
   color: #eff8ff;
 }
 
+.hover\:text-twitter-bg:hover {
+  color: #10171e;
+}
+
 .hover\:text-indigo-darkest:hover {
   color: #191e38;
 }
@@ -5658,6 +5690,10 @@ table {
 
 .focus\:text-blue-lightest:focus {
   color: #eff8ff;
+}
+
+.focus\:text-twitter-bg:focus {
+  color: #10171e;
 }
 
 .focus\:text-indigo-darkest:focus {
@@ -6154,7 +6190,11 @@ table {
   z-index: auto;
 }
 
-@media (min-width: 576px) {
+body {
+  background: #020d18;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
   .sm\:list-reset {
     list-style: none;
     padding: 0;
@@ -6384,6 +6424,10 @@ table {
 
   .sm\:bg-blue-lightest {
     background-color: #eff8ff;
+  }
+
+  .sm\:bg-twitter-bg {
+    background-color: #10171e;
   }
 
   .sm\:bg-indigo-darkest {
@@ -6678,6 +6722,10 @@ table {
     background-color: #eff8ff;
   }
 
+  .sm\:hover\:bg-twitter-bg:hover {
+    background-color: #10171e;
+  }
+
   .sm\:hover\:bg-indigo-darkest:hover {
     background-color: #191e38;
   }
@@ -6968,6 +7016,10 @@ table {
 
   .sm\:focus\:bg-blue-lightest:focus {
     background-color: #eff8ff;
+  }
+
+  .sm\:focus\:bg-twitter-bg:focus {
+    background-color: #10171e;
   }
 
   .sm\:focus\:bg-indigo-darkest:focus {
@@ -7326,6 +7378,10 @@ table {
     border-color: #eff8ff;
   }
 
+  .sm\:border-twitter-bg {
+    border-color: #10171e;
+  }
+
   .sm\:border-indigo-darkest {
     border-color: #191e38;
   }
@@ -7618,6 +7674,10 @@ table {
     border-color: #eff8ff;
   }
 
+  .sm\:hover\:border-twitter-bg:hover {
+    border-color: #10171e;
+  }
+
   .sm\:hover\:border-indigo-darkest:hover {
     border-color: #191e38;
   }
@@ -7908,6 +7968,10 @@ table {
 
   .sm\:focus\:border-blue-lightest:focus {
     border-color: #eff8ff;
+  }
+
+  .sm\:focus\:border-twitter-bg:focus {
+    border-color: #10171e;
   }
 
   .sm\:focus\:border-indigo-darkest:focus {
@@ -10711,6 +10775,10 @@ table {
     color: #eff8ff;
   }
 
+  .sm\:text-twitter-bg {
+    color: #10171e;
+  }
+
   .sm\:text-indigo-darkest {
     color: #191e38;
   }
@@ -11003,6 +11071,10 @@ table {
     color: #eff8ff;
   }
 
+  .sm\:hover\:text-twitter-bg:hover {
+    color: #10171e;
+  }
+
   .sm\:hover\:text-indigo-darkest:hover {
     color: #191e38;
   }
@@ -11293,6 +11365,10 @@ table {
 
   .sm\:focus\:text-blue-lightest:focus {
     color: #eff8ff;
+  }
+
+  .sm\:focus\:text-twitter-bg:focus {
+    color: #10171e;
   }
 
   .sm\:focus\:text-indigo-darkest:focus {
@@ -11790,7 +11866,7 @@ table {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .md\:list-reset {
     list-style: none;
     padding: 0;
@@ -12020,6 +12096,10 @@ table {
 
   .md\:bg-blue-lightest {
     background-color: #eff8ff;
+  }
+
+  .md\:bg-twitter-bg {
+    background-color: #10171e;
   }
 
   .md\:bg-indigo-darkest {
@@ -12314,6 +12394,10 @@ table {
     background-color: #eff8ff;
   }
 
+  .md\:hover\:bg-twitter-bg:hover {
+    background-color: #10171e;
+  }
+
   .md\:hover\:bg-indigo-darkest:hover {
     background-color: #191e38;
   }
@@ -12604,6 +12688,10 @@ table {
 
   .md\:focus\:bg-blue-lightest:focus {
     background-color: #eff8ff;
+  }
+
+  .md\:focus\:bg-twitter-bg:focus {
+    background-color: #10171e;
   }
 
   .md\:focus\:bg-indigo-darkest:focus {
@@ -12962,6 +13050,10 @@ table {
     border-color: #eff8ff;
   }
 
+  .md\:border-twitter-bg {
+    border-color: #10171e;
+  }
+
   .md\:border-indigo-darkest {
     border-color: #191e38;
   }
@@ -13254,6 +13346,10 @@ table {
     border-color: #eff8ff;
   }
 
+  .md\:hover\:border-twitter-bg:hover {
+    border-color: #10171e;
+  }
+
   .md\:hover\:border-indigo-darkest:hover {
     border-color: #191e38;
   }
@@ -13544,6 +13640,10 @@ table {
 
   .md\:focus\:border-blue-lightest:focus {
     border-color: #eff8ff;
+  }
+
+  .md\:focus\:border-twitter-bg:focus {
+    border-color: #10171e;
   }
 
   .md\:focus\:border-indigo-darkest:focus {
@@ -16347,6 +16447,10 @@ table {
     color: #eff8ff;
   }
 
+  .md\:text-twitter-bg {
+    color: #10171e;
+  }
+
   .md\:text-indigo-darkest {
     color: #191e38;
   }
@@ -16639,6 +16743,10 @@ table {
     color: #eff8ff;
   }
 
+  .md\:hover\:text-twitter-bg:hover {
+    color: #10171e;
+  }
+
   .md\:hover\:text-indigo-darkest:hover {
     color: #191e38;
   }
@@ -16929,6 +17037,10 @@ table {
 
   .md\:focus\:text-blue-lightest:focus {
     color: #eff8ff;
+  }
+
+  .md\:focus\:text-twitter-bg:focus {
+    color: #10171e;
   }
 
   .md\:focus\:text-indigo-darkest:focus {
@@ -17426,7 +17538,7 @@ table {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .lg\:list-reset {
     list-style: none;
     padding: 0;
@@ -17656,6 +17768,10 @@ table {
 
   .lg\:bg-blue-lightest {
     background-color: #eff8ff;
+  }
+
+  .lg\:bg-twitter-bg {
+    background-color: #10171e;
   }
 
   .lg\:bg-indigo-darkest {
@@ -17950,6 +18066,10 @@ table {
     background-color: #eff8ff;
   }
 
+  .lg\:hover\:bg-twitter-bg:hover {
+    background-color: #10171e;
+  }
+
   .lg\:hover\:bg-indigo-darkest:hover {
     background-color: #191e38;
   }
@@ -18240,6 +18360,10 @@ table {
 
   .lg\:focus\:bg-blue-lightest:focus {
     background-color: #eff8ff;
+  }
+
+  .lg\:focus\:bg-twitter-bg:focus {
+    background-color: #10171e;
   }
 
   .lg\:focus\:bg-indigo-darkest:focus {
@@ -18598,6 +18722,10 @@ table {
     border-color: #eff8ff;
   }
 
+  .lg\:border-twitter-bg {
+    border-color: #10171e;
+  }
+
   .lg\:border-indigo-darkest {
     border-color: #191e38;
   }
@@ -18890,6 +19018,10 @@ table {
     border-color: #eff8ff;
   }
 
+  .lg\:hover\:border-twitter-bg:hover {
+    border-color: #10171e;
+  }
+
   .lg\:hover\:border-indigo-darkest:hover {
     border-color: #191e38;
   }
@@ -19180,6 +19312,10 @@ table {
 
   .lg\:focus\:border-blue-lightest:focus {
     border-color: #eff8ff;
+  }
+
+  .lg\:focus\:border-twitter-bg:focus {
+    border-color: #10171e;
   }
 
   .lg\:focus\:border-indigo-darkest:focus {
@@ -21983,6 +22119,10 @@ table {
     color: #eff8ff;
   }
 
+  .lg\:text-twitter-bg {
+    color: #10171e;
+  }
+
   .lg\:text-indigo-darkest {
     color: #191e38;
   }
@@ -22275,6 +22415,10 @@ table {
     color: #eff8ff;
   }
 
+  .lg\:hover\:text-twitter-bg:hover {
+    color: #10171e;
+  }
+
   .lg\:hover\:text-indigo-darkest:hover {
     color: #191e38;
   }
@@ -22565,6 +22709,10 @@ table {
 
   .lg\:focus\:text-blue-lightest:focus {
     color: #eff8ff;
+  }
+
+  .lg\:focus\:text-twitter-bg:focus {
+    color: #10171e;
   }
 
   .lg\:focus\:text-indigo-darkest:focus {
@@ -23294,6 +23442,10 @@ table {
     background-color: #eff8ff;
   }
 
+  .xl\:bg-twitter-bg {
+    background-color: #10171e;
+  }
+
   .xl\:bg-indigo-darkest {
     background-color: #191e38;
   }
@@ -23586,6 +23738,10 @@ table {
     background-color: #eff8ff;
   }
 
+  .xl\:hover\:bg-twitter-bg:hover {
+    background-color: #10171e;
+  }
+
   .xl\:hover\:bg-indigo-darkest:hover {
     background-color: #191e38;
   }
@@ -23876,6 +24032,10 @@ table {
 
   .xl\:focus\:bg-blue-lightest:focus {
     background-color: #eff8ff;
+  }
+
+  .xl\:focus\:bg-twitter-bg:focus {
+    background-color: #10171e;
   }
 
   .xl\:focus\:bg-indigo-darkest:focus {
@@ -24234,6 +24394,10 @@ table {
     border-color: #eff8ff;
   }
 
+  .xl\:border-twitter-bg {
+    border-color: #10171e;
+  }
+
   .xl\:border-indigo-darkest {
     border-color: #191e38;
   }
@@ -24526,6 +24690,10 @@ table {
     border-color: #eff8ff;
   }
 
+  .xl\:hover\:border-twitter-bg:hover {
+    border-color: #10171e;
+  }
+
   .xl\:hover\:border-indigo-darkest:hover {
     border-color: #191e38;
   }
@@ -24816,6 +24984,10 @@ table {
 
   .xl\:focus\:border-blue-lightest:focus {
     border-color: #eff8ff;
+  }
+
+  .xl\:focus\:border-twitter-bg:focus {
+    border-color: #10171e;
   }
 
   .xl\:focus\:border-indigo-darkest:focus {
@@ -27619,6 +27791,10 @@ table {
     color: #eff8ff;
   }
 
+  .xl\:text-twitter-bg {
+    color: #10171e;
+  }
+
   .xl\:text-indigo-darkest {
     color: #191e38;
   }
@@ -27911,6 +28087,10 @@ table {
     color: #eff8ff;
   }
 
+  .xl\:hover\:text-twitter-bg:hover {
+    color: #10171e;
+  }
+
   .xl\:hover\:text-indigo-darkest:hover {
     color: #191e38;
   }
@@ -28201,6 +28381,10 @@ table {
 
   .xl\:focus\:text-blue-lightest:focus {
     color: #eff8ff;
+  }
+
+  .xl\:focus\:text-twitter-bg:focus {
+    color: #10171e;
   }
 
   .xl\:focus\:text-indigo-darkest:focus {
